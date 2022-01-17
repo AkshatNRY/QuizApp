@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #D6E5FA;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.quiz-container{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.quiz-header{
+    padding: 2rem;
+}
+
+button{
+    display: inline;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #8e44ad;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+button:hover{
+    background-color: #781ca0;
+    cursor: pointer;
+}
+
+h1{
+    color:#781ca0 ;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
